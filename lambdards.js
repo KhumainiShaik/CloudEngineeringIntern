@@ -2,8 +2,8 @@ const aws = require('aws-sdk');
 const s3 = new aws.S3({
     apiVersion: '2006-03-01',
     region: 'us-east-1',
-    accessKeyId: 'AKIAYK7TLQWPKI34ZEAZ',
-    secretAccessKey: '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'
+    accessKeyId: '#awsacceskey',
+    secretAccessKey: '#awssecret'
 });
 
 const mysql = require('mysql');
